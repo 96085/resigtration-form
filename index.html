@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>registration-form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <p> 
+        <label for="name">First Name: </label>
+        <input type="name" placeholder="Enter your first name" required>
+    </p>
+    <p> 
+        <label for="middlename">Middle Name: </label>
+        <input type="middlename" placeholder="Enter your middle name" >
+    </p>
+    <p> 
+        <label for="lastname">Last Name: </label>
+        <input type="lastname" placeholder="Enter your last name" >
+    </p>
+    <p>
+        Select Course:
+        <select name="Course" id="">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="DSA">DSA</option>
+            <option value="Python">Python</option>
+            <option value="React">React</option>
+        </select>
+    </p>
+    <p>
+        Gender: 
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+    </p>
+    <p>
+        Phone no. <input type="number" name="phonenumber" id="number">
+    </p>
+    <p>
+        Enter Address <br>
+        <textarea name="address" id="adress" cols="50" rows="5">Enter Your Address....</textarea>
+    </p>
+    <p>
+        Email:
+        <input type="text">
+    </p>
+    <p>
+        Password:
+        <input type="password">
+    </p>
+    <p>
+        <input type="submit" value="submit" >
+    </p>
     
 </body>
 </html>
